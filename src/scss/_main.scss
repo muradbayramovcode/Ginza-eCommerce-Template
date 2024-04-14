@@ -3,14 +3,14 @@
     background-repeat: no-repeat;
     width: 100%;
     overflow: hidden;
-}
 
-.slider figure {
-    position: relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    animation: 10s slider infinite;
+    figure {
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        animation: 10s slider infinite;
+    }
 }
 
 @keyframes slider {
@@ -94,6 +94,45 @@
                 top: 25%;
                 padding-left: 20px;
                 line-height: 40px;
+
+                a{
+                    text-decoration: none;
+                    color: #292929;
+                }
+            }
+        }
+
+    }
+}
+
+.card-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+    .card2 {
+        width: 645px;
+        height: 303px;
+        margin: 40px 0;
+        position: relative;
+
+        .card-content2 {
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+
+            .text{
+                position: absolute;
+                top: 25%;
+                padding-left: 30px;
+                line-height: 40px;
+                color: #292929;
+
+                .discount{
+                    font-size: 35px;
+                }
 
                 a{
                     text-decoration: none;

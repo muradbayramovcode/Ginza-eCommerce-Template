@@ -71,7 +71,6 @@ li {
   width: 100%;
   overflow: hidden;
 }
-
 .slider figure {
   position: relative;
   width: 500%;
@@ -150,6 +149,38 @@ li {
   line-height: 40px;
 }
 .card-container .card .card-content .text a {
+  text-decoration: none;
+  color: #292929;
+}
+
+.card-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-container2 .card2 {
+  width: 645px;
+  height: 303px;
+  margin: 40px 0;
+  position: relative;
+}
+.card-container2 .card2 .card-content2 img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card-container2 .card2 .card-content2 .text {
+  position: absolute;
+  top: 25%;
+  padding-left: 30px;
+  line-height: 40px;
+  color: #292929;
+}
+.card-container2 .card2 .card-content2 .text .discount {
+  font-size: 35px;
+}
+.card-container2 .card2 .card-content2 .text a {
   text-decoration: none;
   color: #292929;
 }
@@ -252,4 +283,59 @@ ul {
   .footer-col {
     width: 100%;
   }
+}
+.slider2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 40px;
+}
+.slider2 .latestArrivals {
+  color: #292929;
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+.slider2 .products {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  justify-content: space-between;
+}
+.slider2 .products .productCart .product {
+  flex: 0 0 200px;
+  margin-right: 10px;
+  scroll-snap-align: start;
+  margin-bottom: 40px;
+}
+.slider2 .products .productCart .product .product_rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.slider2 .products .productCart .product .product_rating .productName {
+  color: #929292;
+}
+.slider2 .products .productCart .product .rating {
+  color: #000000;
+  padding: 5px;
+}
+.slider2 .products .productCart .product .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.slider2 .products .productCart .product .info p {
+  color: #292929;
+  font-size: 14px;
+}
+.slider2 .products .productCart .product .info .cost {
+  color: red;
+  font-weight: bold;
+}
+.slider2 .products .productCart .product img {
+  width: 266px;
+  height: 354px;
 }
