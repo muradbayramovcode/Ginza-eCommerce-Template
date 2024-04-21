@@ -2632,3 +2632,418 @@ ul {
   font-size: 13px;
   color: #707070;
 }
+
+@media screen and (max-width: 991px) {
+  .ginza {
+    background-color: #fff;
+  }
+  .ginza .container {
+    margin: 0 112px;
+  }
+  .ginza .container .icon {
+    display: none;
+  }
+  .ginza .container .shop {
+    display: flex;
+    align-items: center;
+  }
+  .ginza .container .shop .glass .fa-magnifying-glass {
+    display: none;
+  }
+  .ginza .container .shop .glass span {
+    right: 45%;
+  }
+  .ginza .container .shop .fa-bars {
+    display: block;
+  }
+  .ginza .text {
+    display: none;
+  }
+  .arriwals {
+    width: 974px;
+  }
+  .arriwals .mySwiper .swiper-wrapper .swiper-slide img {
+    width: 974px;
+  }
+  .arriwals .mySwiper .swiper-wrapper .swiper-slide .text {
+    top: 27%;
+    left: 12%;
+  }
+  .decor .container {
+    margin: 0 15px;
+  }
+  .decor .container .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .decor .container .cards .card {
+    height: 296px;
+  }
+  .decor .container .cards .card .img {
+    width: 409px;
+  }
+  .bestproducts .container {
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+  .bestproducts .container .decorative {
+    display: flex;
+    flex-direction: column;
+    width: 672px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .bestproducts .container .decorative h3 {
+    font-size: 21px;
+  }
+  .bestproducts .container .decorative h2 {
+    font-size: 39px;
+  }
+  .bestproducts .container .decorative .tablist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 28px;
+  }
+  .bestproducts .container .decorative .tablist li {
+    width: 672px;
+  }
+  .bestproducts .container .decorative .tablist li a {
+    font-size: 14px;
+    font-weight: 550;
+  }
+  .bestproducts .container .cards {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .bestproducts .container .cards .card {
+    padding: 0;
+    width: 321px;
+  }
+  .bestproducts .container .cards .card .product-label .sale {
+    right: 20px;
+  }
+  .bestproducts .container .cards .card .product-label .new {
+    left: 20px;
+  }
+  .bestproducts .container .cards .card .img {
+    width: 321px;
+    height: 428px;
+  }
+  .bestproducts .container .cards .card:nth-child(3) {
+    display: none;
+  }
+  .featured .container {
+    width: 672px;
+  }
+  .featured .container .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .featured .container .cards .card {
+    padding: 0;
+    width: 321px;
+  }
+  .featured .container .cards .card .product-label .sale {
+    right: 20px;
+  }
+  .featured .container .cards .card .product-label .new {
+    left: 20px;
+  }
+  .featured .container .cards .card .img {
+    width: 321px;
+    height: 428px;
+  }
+  .featured .container .cards .card:nth-child(3) {
+    display: none;
+  }
+  .featured .container .cards .card:nth-child(4) {
+    display: none;
+  }
+  .blackfriday .container .cards .card .img {
+    width: 457px;
+    height: 215px;
+  }
+  .blackfriday .container .cards .card .banner-content {
+    width: 160px;
+    top: 24%;
+    left: 10%;
+  }
+  .blackfriday .container .cards .card .banner-content h4 {
+    font-size: 14px;
+    margin: 0;
+    line-height: 0;
+  }
+  .blackfriday .container .cards .card .banner-content h3 {
+    font-size: 22px;
+    margin: 0;
+    line-height: 2;
+  }
+  .blackfriday .container .cards .card .banner-content a {
+    font-size: 14px;
+    margin: 0;
+  }
+  .arrivals .container {
+    width: 672px;
+  }
+  .arrivals .container .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .arrivals .container .cards .card {
+    padding: 0;
+    width: 321px;
+  }
+  .arrivals .container .cards .card .product-label .sale {
+    right: 20px;
+  }
+  .arrivals .container .cards .card .product-label .new {
+    left: 20px;
+  }
+  .arrivals .container .cards .card .img {
+    width: 321px;
+    height: 428px;
+  }
+  .arrivals .container .cards .card:nth-child(3) {
+    display: none;
+  }
+  .arrivals .container .cards .card:nth-child(4) {
+    display: none;
+  }
+  .customer .mySwiper {
+    padding: 0 25px;
+    width: 672px;
+  }
+  .customer .mySwiper .swiper-wrapper {
+    overflow: hidden;
+  }
+  .customer .mySwiper .swiper-wrapper .swiper-slide .txt {
+    width: 622px;
+  }
+  .blogs .container {
+    width: 662px;
+  }
+  .blogs .container .cards .card {
+    width: 321px;
+  }
+  .blogs .container .cards .card:nth-child(3) {
+    display: none;
+  }
+  .discount .container {
+    width: 662px;
+  }
+  .support .openingtime {
+    width: 662px;
+    margin: 0 auto;
+  }
+  .support .openingtime .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .support .openingtime .container .delivery {
+    width: 321px;
+    margin-bottom: 40px;
+  }
+  .support .copyright .container {
+    width: 672px;
+  }
+  .experiences .container {
+    width: 672px;
+  }
+  .experiences .container .img {
+    width: 672px;
+  }
+  .creative .container {
+    width: 662px;
+  }
+  .creative .container .boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .creative .container .boxes .box {
+    width: 50%;
+    margin-bottom: 24px;
+  }
+  .mission .container {
+    width: 662px;
+  }
+  .mission .container .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .mission .container .cards .card {
+    width: 321px;
+    height: 410px;
+  }
+  .mission .container .cards .card img {
+    width: 321px;
+  }
+  .choose {
+    width: 672px;
+    display: flex;
+    flex-direction: column;
+  }
+  .choose .container {
+    margin: 0;
+  }
+  .choose .container .faq-accordion {
+    width: 672px;
+  }
+  .choose .mySwiper .swiper-wrapper {
+    width: 672px;
+  }
+}
+@media screen and (max-width: 759px) {
+  main {
+    width: 742px;
+  }
+  .arriwals {
+    width: 742px;
+  }
+  .arriwals .mySwiper {
+    width: 742px;
+  }
+  .arriwals .mySwiper .swiper-wrapper .swiper-slide .text img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .arriwals .mySwiper .swiper-wrapper .swiper-slide .text h3 {
+    font-size: 18px;
+  }
+  .arriwals .mySwiper .swiper-wrapper .swiper-slide .text h1 {
+    font-size: 30px;
+  }
+  .arriwals .mySwiper .swiper-wrapper .swiper-slide .text button {
+    width: 150px;
+    height: 45px;
+    line-height: 0;
+    font-size: 14px;
+  }
+  .decor .container .cards {
+    height: 1335px;
+  }
+  .decor .container .cards .card {
+    margin-bottom: 30px;
+  }
+  .decor .container .cards .card .img {
+    width: 712px;
+    height: 415px;
+  }
+  .decor .container .cards .card .content h3 {
+    font-size: 20px;
+    font-weight: 550;
+  }
+  .bestproducts .container {
+    width: 492px;
+    border-top: 1px solid #ebebeb;
+  }
+  .bestproducts .container .decorative {
+    margin-bottom: 10px;
+    height: 243px;
+    width: 492px;
+  }
+  .bestproducts .container .decorative .tablist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .bestproducts .container .decorative .tablist li {
+    height: 51px;
+    width: 246px;
+  }
+  .bestproducts .container .cards .card {
+    width: 231px;
+  }
+  .bestproducts .container .cards .card .img {
+    width: 231px;
+    height: 308px;
+  }
+  .featured .container {
+    width: 492px;
+  }
+  .featured .container .cards .card {
+    width: 231px;
+  }
+  .featured .container .cards .card .img {
+    width: 231px;
+    height: 308px;
+  }
+  .blackfriday .container .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .blackfriday .container .cards .card {
+    margin-bottom: 30px;
+  }
+  .blackfriday .container .cards .card .img {
+    width: 712px;
+    height: 334px;
+  }
+  .blackfriday .container .cards .card .banner-content {
+    top: 39%;
+    left: 8%;
+  }
+  .arrivals .container {
+    width: 492px;
+  }
+  .arrivals .container .cards .card {
+    width: 231px;
+  }
+  .arrivals .container .cards .card .img {
+    width: 231px;
+    height: 308px;
+  }
+  .customer .mySwiper {
+    width: 492px;
+  }
+  .customer .mySwiper .swiper-wrapper .swiper-slide .txt {
+    width: 442px;
+  }
+  .blogs .container {
+    width: 492px;
+  }
+  .blogs .container .cards .card .img {
+    width: 231px;
+    height: 138px;
+  }
+  .blogs .container .cards .card a {
+    font-weight: 550;
+  }
+  .discount {
+    width: 492px;
+    margin: 0 auto;
+  }
+  .discount .container {
+    width: 491px;
+  }
+  .discount .container form {
+    width: 488px;
+  }
+  .discount .container form input {
+    width: 318px;
+  }
+  .discount .container form button {
+    width: 150px;
+  }
+  .support .openingtime {
+    width: 492px;
+  }
+  .support .openingtime .container .delivery {
+    width: 231px;
+  }
+  .support .copyright .container {
+    width: 492px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
