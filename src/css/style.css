@@ -2085,6 +2085,7 @@ ul {
 }
 .mission .container .cards {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 .mission .container .cards .card img {

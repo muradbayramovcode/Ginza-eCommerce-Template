@@ -1243,7 +1243,9 @@
 
         .cards {
             display: flex;
+            align-items: center;
             justify-content: space-between;
+            // flex-wrap: wrap;
 
             .card {
                 img {
@@ -1890,11 +1892,13 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+
                 .active {
                     a {
                         color: #ee3333;
                     }
                 }
+
                 li {
                     margin: 0 15px 0 0;
 
@@ -1908,16 +1912,17 @@
                     }
                 }
 
-                
+
             }
         }
 
     }
 }
 
-@media screen and (max-width:991px ) {
+@media screen and (max-width:991px) {
     .ginza {
         background-color: #fff;
+
         .container {
             margin: 0 112px;
             // width: 520px;
@@ -1953,11 +1958,15 @@
 
     .arriwals {
         width: 974px;
+
         .mySwiper {
+
             // width: 974px;
             .swiper-wrapper {
+
                 // width: 974px;
                 .swiper-slide {
+
                     // width: 974px;
                     img {
                         // height: 500px;
